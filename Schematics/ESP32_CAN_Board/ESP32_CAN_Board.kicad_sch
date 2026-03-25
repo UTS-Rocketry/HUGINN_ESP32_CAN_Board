@@ -1,0 +1,279 @@
+(kicad_sch 
+  (version 20260306) 
+  (generator "eeschema") 
+  (generator_version "10.0") 
+  (uuid "25a9066d-fd6c-49ea-904e-882f2dbee539") 
+  (paper "A4") 
+  (lib_symbols) 
+  (wire 
+    (pts 
+      (xy 110.49 86.36) 
+      (xy 120.65 86.36)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "2426a217-9b7c-4da5-aa84-e9e0fef51533")) 
+  (wire 
+    (pts 
+      (xy 187.96 86.36) 
+      (xy 187.96 97.79)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "44823b23-64c1-4778-a8ca-924359906494")) 
+  (wire 
+    (pts 
+      (xy 151.13 102.87) 
+      (xy 163.83 102.87)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "9645fa66-f4a0-43b0-8beb-6b269435fad0")) 
+  (wire 
+    (pts 
+      (xy 151.13 105.41) 
+      (xy 163.83 105.41)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "abf254a6-5635-45b8-bd3b-f1def2e3ab20")) 
+  (wire 
+    (pts 
+      (xy 110.49 83.82) 
+      (xy 120.65 83.82)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "dbeaa8f2-3774-4619-9c94-b63595dd6288")) 
+  (wire 
+    (pts 
+      (xy 151.13 72.39) 
+      (xy 162.56 72.39)) 
+    (stroke 
+      (width 0) 
+      (type default)) 
+    (uuid "fba91201-1f46-4e6a-a2aa-b95b34348d02")) 
+  (sheet 
+    (at 120.65 54.61) 
+    (size 30.48 68.58) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (stroke 
+      (width 0.1524) 
+      (type solid)) 
+    (fill 
+      (color 0 0 0 0)) 
+    (uuid "036cddb9-e7e4-46de-8f0f-8ff78eddc5d3") 
+    (property "Sheetname" "MCU" 
+      (at 120.65 53.8984 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left bottom))) 
+    (property "Sheetfile" "MCU.kicad_sch" 
+      (at 120.65 123.7746 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left top))) 
+    (pin "ESPPower" input 
+      (at 151.13 72.39 0) 
+      (uuid "9f1461ad-885e-4cae-b815-c9a2ea5065ab") 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (pin "ESP_CAN_RX" input 
+      (at 120.65 83.82 180) 
+      (uuid "2844c5f0-e001-4272-b9bf-8085a2aa558e") 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (pin "ESP_CAN_TX" input 
+      (at 120.65 86.36 180) 
+      (uuid "5cec9ab5-e71d-4bde-8c0b-3779ca1fb128") 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (pin "D+" input 
+      (at 151.13 102.87 0) 
+      (uuid "d96e222f-3a4c-40d4-aae3-86a5b75f60d2") 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (pin "D-" input 
+      (at 151.13 105.41 0) 
+      (uuid "f1e56168-ae89-41b7-a71f-0a8a9ee43a39") 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (instances 
+      (project "ESP32_CAN_Board" 
+        (path "/25a9066d-fd6c-49ea-904e-882f2dbee539" 
+          (page "2"))))) 
+  (sheet 
+    (at 78.74 78.74) 
+    (size 31.75 15.24) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (stroke 
+      (width 0.1524) 
+      (type solid)) 
+    (fill 
+      (color 0 0 0 0)) 
+    (uuid "6b01b30c-62dc-4ef1-b71d-cc1715ad5c89") 
+    (property "Sheetname" "CAN" 
+      (at 78.74 78.0284 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left bottom))) 
+    (property "Sheetfile" "CAN.kicad_sch" 
+      (at 78.74 94.5646 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left top))) 
+    (pin "CAN_RX_2" input 
+      (at 110.49 83.82 0) 
+      (uuid "6831992e-3f90-4c39-85e0-5ae5afc4258d") 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (pin "CAN_TX_2" input 
+      (at 110.49 86.36 0) 
+      (uuid "df824721-f2dd-4a75-8244-080cc2f57c01") 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (instances 
+      (project "ESP32_CAN_Board" 
+        (path "/25a9066d-fd6c-49ea-904e-882f2dbee539" 
+          (page "3"))))) 
+  (sheet 
+    (at 162.56 68.58) 
+    (size 27.94 17.78) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (stroke 
+      (width 0.1524) 
+      (type solid)) 
+    (fill 
+      (color 0 0 0 0)) 
+    (uuid "dac87c7e-fdc6-4e22-91a9-f340c93689c2") 
+    (property "Sheetname" "Power" 
+      (at 162.56 67.8684 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left bottom))) 
+    (property "Sheetfile" "Power.kicad_sch" 
+      (at 162.56 86.9446 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left top))) 
+    (pin "ESP5vUSB" input 
+      (at 187.96 86.36 270) 
+      (uuid "f99031a3-1118-436e-8ef9-eede8f6bc253") 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (pin "ESPPower" input 
+      (at 162.56 72.39 180) 
+      (uuid "36a5dc92-d988-4e11-90ab-6f9a7c5cb8c4") 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (instances 
+      (project "ESP32_CAN_Board" 
+        (path "/25a9066d-fd6c-49ea-904e-882f2dbee539" 
+          (page "4"))))) 
+  (sheet 
+    (at 163.83 97.79) 
+    (size 26.67 21.59) 
+    (exclude_from_sim no) 
+    (in_bom yes) 
+    (on_board yes) 
+    (dnp no) 
+    (fields_autoplaced yes) 
+    (stroke 
+      (width 0.1524) 
+      (type solid)) 
+    (fill 
+      (color 0 0 0 0)) 
+    (uuid "f65625f8-7a97-49a2-9fe2-e28d07fec212") 
+    (property "Sheetname" "USBC" 
+      (at 163.83 97.0784 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left bottom))) 
+    (property "Sheetfile" "USBC.kicad_sch" 
+      (at 163.83 119.9646 0) 
+      (show_name no) 
+      (do_not_autoplace no) 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left top))) 
+    (pin "D+" input 
+      (at 163.83 102.87 180) 
+      (uuid "a9fd6bd5-c728-416a-b04b-2f135c6ee6ff") 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (pin "D-" input 
+      (at 163.83 105.41 180) 
+      (uuid "30e3576e-b23a-4586-91a7-7c8041f3c261") 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify left))) 
+    (pin "ESP5vUSB" input 
+      (at 187.96 97.79 90) 
+      (uuid "b9f7fca6-6f3f-44fc-b40f-b296a32fe0f8") 
+      (effects 
+        (font 
+          (size 1.27 1.27)) 
+        (justify right))) 
+    (instances 
+      (project "ESP32_CAN_Board" 
+        (path "/25a9066d-fd6c-49ea-904e-882f2dbee539" 
+          (page "5"))))) 
+  (sheet_instances 
+    (path "/" 
+      (page "1"))) 
+  (embedded_fonts no))
