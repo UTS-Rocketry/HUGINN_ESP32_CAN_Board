@@ -3499,6 +3499,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C915913"
+			(at 95.25 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "4d1429b6-01fc-4677-bace-ea98d463ccad")
 		)
@@ -3875,6 +3886,17 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 204.47 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C915913"
 			(at 204.47 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4422,7 +4444,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96346"
+		(property "LCSC" "C84376"
 			(at 44.45 116.84 90)
 			(hide yes)
 			(show_name no)
@@ -4643,6 +4665,17 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 97.79 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" " C557685"
 			(at 97.79 109.22 0)
 			(hide yes)
 			(show_name no)
