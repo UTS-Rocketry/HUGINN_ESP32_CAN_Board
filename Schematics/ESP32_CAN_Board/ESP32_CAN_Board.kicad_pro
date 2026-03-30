@@ -508,7 +508,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../OutputFolder/Gerbers/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -520,7 +520,7 @@
       "method": 0,
       "sort_order": 0
     },
-    "bom_export_filename": "..\\OutputFolders\\CameraBoard.csv",
+    "bom_export_filename": "..\\..\\OutputFolder\\ESP32_CAN_Board.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -575,13 +575,13 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -764,7 +764,7 @@
         "uuid": "25a9066d-fd6c-49ea-904e-882f2dbee539"
       }
     ],
-    "used_designators": "R1,R6-7,#PWR5,#PWR10,PowerLED1",
+    "used_designators": "RSTSwitch2",
     "variants": []
   },
   "sheets": [
